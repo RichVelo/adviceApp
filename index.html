@@ -11,17 +11,16 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js" defer></script>
     <title>Frontend Mentor | Advice generator app</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
 </head>
 <body>
     <main>
         <div id="advice-container">
             <div id="advice-num"></div>
-
             <div id="advice-string"></div>
-
+            <picture id="divider">
+                <source srcset="./images/pattern-divider-mobile.svg" media="(max-width: 650px)">
+                <img src="./images/pattern-divider-desktop.svg" alt="a dividing line between the advice and button">
+            </picture>
             <div id="new-advice-button"><img src="./images/icon-dice.svg" alt="a small icon of a dice to choose a new piece of advice"></div>
         </div>
     </main>
@@ -30,7 +29,7 @@
     <footer>
         <div class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Your Name Here</a>.
+            Coded by <a href="https://www.github.com/richvelo">RichVelo</a>.
         </div>
     </footer>
 
